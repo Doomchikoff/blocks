@@ -1,0 +1,47 @@
+h1{
+    color: black;
+}
+
+body{
+    color: aliceblue;
+}
+
+ul{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 20%;
+    background-color: blue;
+    float: left;
+}
+
+main{
+    width: 60%;
+    background-color: blueviolet;
+    float: left;
+}
+
+footer{
+    clear: both;
+    background-color: black;
+    color: whitesmoke;
+}
+
+article{
+    border: 2px dashed darkred;
+    margin: 10px;
+}
+
+aside{
+    background-color: rgb(133, 0, 0);
+    margin: 10px;
+}
+
+footer{
+    background-color: black;
+    margin: 10px;
+}

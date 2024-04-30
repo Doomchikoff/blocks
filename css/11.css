@@ -1,0 +1,70 @@
+body{
+    background-color: yellowgreen;
+    color: rgb(5, 40, 70);
+}
+
+p{
+    background-color: coral;
+    font-size: 30px;
+}
+
+span{
+    border: 2px dashed blue;
+}
+
+ul{
+    background-color: aliceblue;
+}
+ul li{
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    font-size: 24px;
+    border: 2px dashed greenyellow;
+}
+
+ul li:hover{
+    background-color: blue;
+    color: azure;
+    border: 2px dashed greenyellow;
+}
+
+#first{
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    font-size: 34px;
+    margin-bottom: 50px;
+    border-width: 20px;
+    border-style: dashed ridge dotted double;
+    border-color: yellow blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second{
+    width: 600px;
+    height: 600px;
+    font-size: 34px;
+    background-color: bisque;
+    padding: 50px;
+}
+
+#third, #fourth{
+    width: 700px;
+    height: 200px;
+    font-size: 34px;
+    background-color: crimson;
+    margin: 50px;
+    padding: 50px;
+}
+
+#five{
+    width: 100px;
+    height: 200px;
+    font-size: 34px;
+    background-color: rgb(145, 255, 0);
+    margin: 50px;
+    padding: 50px;
+}
